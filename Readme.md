@@ -19,4 +19,4 @@ It is a simple schema as screenshot from my KiCAD session:
 You may want to have different Voltages, to get output lower than 7.15 V you need to
 use R1. For output greater than 7.15 V R1 is not needed and output voltage is set with R7.
 
-My  KiCAD files will follow soon in this repositoy.
+Have fun!
