@@ -25,17 +25,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 5350 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 5E2092FB
-P 8250 2050
-F 0 "J2" H 8278 2026 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 8278 1935 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8250 2050 50  0001 C CNN
-F 3 "~" H 8250 2050 50  0001 C CNN
-	1    8250 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR012
 U 1 1 5E20DA6E
 P 8050 2150
@@ -487,18 +476,18 @@ U 1 1 5E66FC2C
 P 3150 2500
 F 0 "F1" H 3210 2546 50  0000 L CNN
 F 1 "Fuse" H 3210 2455 50  0000 L CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 3080 2500 50  0001 C CNN
+F 2 "Fuse:Fuse_Bourns_MF-RHT1000" V 3080 2500 50  0001 C CNN
 F 3 "~" H 3150 2500 50  0001 C CNN
 	1    3150 2500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J1
+L Connector:Screw_Terminal_01x02 J1
 U 1 1 5E20A2EE
 P 2800 2500
 F 0 "J1" H 2750 2600 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2650 2300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2800 2500 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" V 3250 2500 50  0000 C CNN
 F 3 "~" H 2800 2500 50  0001 C CNN
 	1    2800 2500
 	-1   0    0    -1  
@@ -603,4 +592,15 @@ Wire Wire Line
 Connection ~ 4100 3600
 Wire Wire Line
 	4100 3600 4100 4000
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F16A6BD
+P 8250 2150
+F 0 "J2" H 8200 2250 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 8100 1950 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" V 8700 2150 50  0001 C CNN
+F 3 "~" H 8250 2150 50  0001 C CNN
+	1    8250 2150
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
