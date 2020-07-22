@@ -152,8 +152,8 @@ L Transistor_BJT:BD250A Q1
 U 1 1 5E2238E7
 P 5450 2150
 F 0 "Q1" V 5779 2150 50  0000 C CNN
-F 1 "BD244C" V 5688 2150 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5655 2070 50  0001 L CIN
+F 1 "BD244C / MJD6284" V 5688 2150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-247-3_Vertical" H 5655 2070 50  0001 L CIN
 F 3 "http://www.mospec.com.tw/pdf/power/BD249.pdf" H 5450 2150 50  0001 L CNN
 	1    5450 2150
 	0    1    -1   0   
@@ -422,7 +422,7 @@ U 1 1 5E6559FA
 P 6150 2050
 F 0 "R4" V 6250 2050 50  0000 C CNN
 F 1 "2R7" V 6034 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 6080 2050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical" V 6080 2050 50  0001 C CNN
 F 3 "~" H 6150 2050 50  0001 C CNN
 	1    6150 2050
 	0    1    1    0   
@@ -476,7 +476,7 @@ U 1 1 5E66FC2C
 P 3150 2500
 F 0 "F1" H 3210 2546 50  0000 L CNN
 F 1 "Fuse" H 3210 2455 50  0000 L CNN
-F 2 "Fuse:Fuse_Bourns_MF-RHT1000" V 3080 2500 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 3080 2500 50  0001 C CNN
 F 3 "~" H 3150 2500 50  0001 C CNN
 	1    3150 2500
 	0    -1   -1   0   
@@ -487,7 +487,7 @@ U 1 1 5E20A2EE
 P 2800 2500
 F 0 "J1" H 2750 2600 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2650 2300 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" V 3250 2500 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" V 3250 2500 50  0001 C CNN
 F 3 "~" H 2800 2500 50  0001 C CNN
 	1    2800 2500
 	-1   0    0    -1  
